@@ -3,3 +3,5 @@ steps:
     args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/coscup-cloud-workstation', '.' ]
 images:
   - 'gcr.io/$PROJECT_ID/coscup-cloud-workstation'
+options:
+  logging: CLOUD_LOGGING_ONLY
